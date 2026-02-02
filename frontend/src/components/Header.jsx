@@ -11,12 +11,10 @@ const Header = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-indigo-deep rounded-lg flex items-center justify-center text-white font-sans font-bold text-xl tracking-tighter">
-                            R
-                        </div>
+                        <img src="/chronos-logo.png" alt="ChronOs Logo" className="w-10 h-10 rounded-lg object-contain" />
                         <div className="flex flex-col">
                             <span className="font-sans font-bold text-xl text-indigo-deep tracking-tight">RTI-Gen</span>
-                            <span className="text-[10px] text-gray-500 font-medium uppercase tracking-wider">Civic Tech</span>
+                            <span className="text-[10px] text-gray-500 font-medium uppercase tracking-wider">By ChronOs</span>
                         </div>
                     </Link>
 
@@ -30,10 +28,7 @@ const Header = () => {
 
                     {/* Actions */}
                     <div className="hidden md:flex items-center gap-4">
-                        <div className="flex items-center gap-2 px-3 py-1 bg-green-50 rounded-full border border-green-100">
-                            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                            <span className="text-xs font-semibold text-green-700">Spring Boot API</span>
-                        </div>
+
                         <Button variant="primary" className="py-2 px-5 text-sm" to="/generate">
                             Generate RTI
                         </Button>
