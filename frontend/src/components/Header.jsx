@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-3">
-                        <img src="/chronos-logo.png" alt="ChronOs Logo" className="w-10 h-10 rounded-lg object-contain" />
+                        <img src="/chronos-logo.jpg" alt="ChronOs Logo" className="w-10 h-10 rounded-lg object-contain" />
                         <div className="flex flex-col">
                             <span className="font-sans font-bold text-xl text-indigo-deep tracking-tight">RTI-Gen</span>
                             <span className="text-[10px] text-gray-500 font-medium uppercase tracking-wider">By ChronOs</span>
